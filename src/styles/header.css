@@ -1,0 +1,23 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(168, 168, 255);
+  align-items: center;
+  justify-content: center;
+}
+
+.header-heading {
+  position: absolute;
+  font-size: 4vh;
+}
+
+.header-about {
+  margin-left: auto;
+  margin-right: 1vw;
+}
+
+.header-contact {
+  margin-right: 2vw;
+}
