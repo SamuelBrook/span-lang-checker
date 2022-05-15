@@ -1,16 +1,17 @@
 .header {
   width: 100vw;
-  height: 10vh;
+  height: 9vh;
   display: flex;
   flex-direction: row;
-  background-color: rgb(168, 168, 255);
+  background-color: rgb(0, 0, 59);
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .header-heading {
-  position: absolute;
   font-size: 4vh;
+  margin-left: 8vh;
 }
 
 .header-about {

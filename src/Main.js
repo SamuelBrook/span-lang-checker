@@ -1,11 +1,13 @@
 import Search from "./Search";
+import Display from "./Display";
 import "./styles/main.css";
 
 function Main() {
   return (
-    <div className="main">
+    <main className="main">
       <Search />
-    </div>
+      <Display />
+    </main>
   );
 }
 
